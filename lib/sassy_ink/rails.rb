@@ -2,6 +2,7 @@ require "sassy_ink/rails/version"
 
 module SassyInk
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
