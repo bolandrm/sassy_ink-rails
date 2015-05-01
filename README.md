@@ -1,6 +1,8 @@
-# SassyInk::Rails
+# sassy_ink-rails
 
-TODO: Write a gem description
+The unoffical [Sass port of Ink](https://github.com/faustgertz/sassy-ink), for the asset pipeline.
+
+All credit for the Sass assets goes to [SassyInk](https://github.com/faustgertz/sassy-ink), this is just a repackaging.
 
 ## Installation
 
@@ -20,7 +22,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Import the full library for use within your stylesheets:
+
+```css
+@import "zurb-ink"
+```
+
+Or selectively import the components you want components:
+
+```css
+@import
+	"ink/settings",
+	"ink/components/normalize",
+	"ink/components/grid",
+	"ink/components/block-grid",
+  // etc
+```
 
 ## Contributing
 
